@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dosis:wght@200;300;400;500;600;700;800&family=Fuzzy+Bubbles:wght@400;700&family=Silkscreen:wght@400;700&display=swap');
+
+/* font-family: 'Comforter Brush', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Silkscreen', cursive; */
+* {
+    font-family: 'Dosis', sans-serif;
+
+}
+
+body {
+    margin: 0;
+}
+
+.logo {
+    margin-left: 2rem;
+    font-family: 'Comforter Brush', cursive;
+    font-size: 3rem;
+}
+
+.homebar {
+    text-align: center;
+    margin: 2rem 0;
+
+}
+
+.headertext span {
+    color: orange;
+}
+
+.subtitle {
+    font-size: 1.5rem
+}
+
+
+
+
+
+.card {
+    width: 40vw;
+    margin: auto;
+}
+
+.formbar {
+    width: 100%;
+}
+
+.input {
+    width: 85%;
+    border-radius: 5px;
+    border: 1px solid red;
+    margin-right: 1rem;
+
+}
+
+.formbar button {
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.imgbar {
+    width: 100%;
+    height: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+
+}
