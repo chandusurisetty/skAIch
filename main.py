@@ -11,7 +11,7 @@ ai = AIImg()
 isImg = False
 
 try:
-    os.remove("static/img/aiImg.jpg")
+    os.remove("./static/img/aiImg.jpg")
 except:
     print("no file")
 
