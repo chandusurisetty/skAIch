@@ -22,7 +22,7 @@ class AIImg():
         answers = stability_api.generate(
             prompt=self.text,
             seed=34567,
-            steps=30
+            steps=5
 
 
         )
