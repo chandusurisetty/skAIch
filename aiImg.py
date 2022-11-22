@@ -3,7 +3,7 @@ from PIL import Image
 import io
 import warnings
 import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
-key = "sk-sFnZLnSIpcPB9LZrz4dgVj9p30v0mOlJHu7g60OhBiRBkcLR"
+key = "sk-dHCEVvUkA5lFSmwTMXe4fTssEnDsLKstkZRTbB13lRUxJral"
 
 
 class AIImg():
