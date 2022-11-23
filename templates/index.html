@@ -31,7 +31,15 @@
 
 
                     <input class="input" type="text" name="text" placeholder="E.g :- Butterfly painting">
-                    <button type="submit">Create</button>
+                    <div class="clickbtns">
+                        <button type="submit">Create</button>
+                        {%if isImg==False%}
+
+                        <a class="dbtn" href="static/img/butterfly.jpg" download=""> Download</a>
+                        {%else%}
+                        <a class="dbtn" href="static/img/aiImg.jpg" download=""> Download</a>
+                        {%endif%}
+                    </div>
                 </form>
             </div>
             <div class="imgbar">
