@@ -16,13 +16,17 @@ class AIImg():
 
         stability_api = client.StabilityInference(
             key=key,
-            verbose=True
+            verbose=True,
+            engine="stable-diffusion-xl-1024-v1-0"
 
         )
         answers = stability_api.generate(
             prompt=self.text,
-            seed=34567,
-            steps=5
+            seed=4253978046,
+            steps=50,
+            cfg_scale=8.0,
+            samples=1,
+            sampler=generation.SAMPLER_K_DPMPP_2M 
 
 
         )
